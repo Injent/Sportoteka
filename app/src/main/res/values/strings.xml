@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Спортотека</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="notifications">Notifications</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_in">Sign in</string>
+    <string name="time_interval">Time interval</string>
+    <string name="to_date">to</string>
+    <string name="from_date">From</string>
+    <string name="filters">Filters</string>
+    <string name="reset">Reset</string>
+    <string name="members_count">%d members</string>
+    <string name="select">Select</string>
+    <string name="current_filter">Current filter</string>
+    <string name="create">Create</string>
+    <string name="filter_name">Name of filter</string>
+    <string name="save">Save</string>
+    <string name="set_as_default">Set as default</string>
+    <string name="active_filters">Active filters</string>
+    <string name="members_count_headline">Members count</string>
+    <string name="sex_filter">Sex</string>
+    <string name="age_filter">Age</string>
+    <string name="sport_type">Type of competition</string>
+    <string name="sport">Type of sport</string>
+    <string name="discipline">Discipline</string>
+    <string name="program">Program</string>
+    <string name="team">Team</string>
+    <string name="or">OR</string>
+    <string name="login_as_guest">Login as guest</string>
+    <string name="syncing">Syncing</string>
+    <string name="token_registration">Token registration</string>
+    <string name="signIn_to_save_filters">Sign in to fill out your profile</string>
+    <string name="signIn_to_save">Sign in to save</string>
+    <string name="nothingIsFound">Nothing is found</string>
+    <string name="info">Information</string>
+    <string name="performer">Performer</string>
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="favourites">Favourites</string>
+    <string name="ekp" translatable="false">ЕКП</string>
+    <string name="mark_in_calendar">Mark in calendar</string>
+</resources>

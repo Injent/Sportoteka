@@ -1,0 +1,94 @@
+[versions]
+agp = "8.6.1"
+kotlin = "1.9.24"
+coilComposeVersion = "2.7.0"
+coreKtx = "1.13.0"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.3"
+composeBom = "2024.11.00"
+kotlinxSerialization = "1.6.3"
+navigationCompose = "2.8.4"
+koin = "3.5.6"
+datastore = "1.1.1"
+kotlinxCoroutines = "1.9.0"
+kotlinxDatetime = "0.6.1"
+ktor = "2.3.12"
+constraintLayout = "1.0.1"
+lifecycle = "2.8.7"
+androidxWork = "2.9.0"
+sheetsComposeDialogs = "1.2.0"
+charts = "0.2.1"
+camerak = "0.0.7"
+camerakImages = "0.0.1"
+camerakQr = "0.0.2"
+filekit = "0.8.7"
+yookassa = "6.10.0"
+googleGmsGoogleServices = "4.4.2"
+firebaseMessaging = "24.1.0"
+bonsai = "1.2.0"
+lazy-pagination-compose = "1.3.7"
+rustore = "6.2.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
+koin-bom = { group = "io.insert-koin", name = "koin-bom", version.ref = "koin" }
+koin-android = { group = "io.insert-koin", name = "koin-android" }
+koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose" }
+kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerialization" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilComposeVersion" }
+datastore = { group = "androidx.datastore", name = "datastore", version.ref = "datastore" }
+koin-workManager = { group = "io.insert-koin", name = "koin-androidx-workmanager" }
+koin-navigation = { group = "io.insert-koin", name = "koin-androidx-navigation" }
+
+ktor-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor" }
+ktor-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktor" }
+ktor-logging = { group = "io.ktor", name = "ktor-client-logging", version.ref = "ktor" }
+ktor-contentNegotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor" }
+ktor-auth = { group = "io.ktor", name = "ktor-client-auth", version.ref = "ktor" }
+
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxCoroutines" }
+kotlinx-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime", version.ref = "kotlinxDatetime" }
+
+lifecycle-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycle" }
+lifecycle-viewModelCompose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+lifecycle-viewModelKtx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+work = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "androidxWork" }
+sheetsComposeDialog-calendar = { group = "com.maxkeppeler.sheets-compose-dialogs", name = "calendar", version.ref = "sheetsComposeDialogs" }
+sheetsComposeDialog-core = { group = "com.maxkeppeler.sheets-compose-dialogs", name = "core", version.ref = "sheetsComposeDialogs" }
+charts = { group = "io.github.bytebeats", name = "compose-charts", version.ref = "charts" }
+
+bonsai-core = { group = "cafe.adriel.bonsai", name = "bonsai-core", version.ref = "bonsai" }
+
+camerak = { group = "io.github.kashif-mehmood-km", name = "camerak", version.ref = "camerak" }
+camerak-images = { group = "io.github.kashif-mehmood-km", name = "image_saver_plugin", version.ref = "camerakImages" }
+camerak-qr = { group = "io.github.kashif-mehmood-km", name = "qr_scanner_plugin", version.ref = "camerakQr" }
+
+filekit-core = { group = "io.github.vinceglb", name = "filekit-core", version.ref = "filekit" }
+filekit-compose = { group = "io.github.vinceglb", name = "filekit-compose", version.ref = "filekit" }
+
+javaTime = { group = "org.eljabali.sami.javatimefun", name = "javatimefun", version = "3.0.0" }
+infoBar = { group = "com.radusalagean", name = "info-bar-compose", version = "1.0.0" }
+
+rustore-bom = { group = "com.google.firebase", name = "firebase-bom", version = "33.6.0" }
+rustore-pushclient = { group = "com.google.firebase", name = "firebase-messaging" }
+rustore-auth = { group = "com.google.firebase", name = "firebase-auth" }
+
+lazyPaginationCompose = { module = "io.github.ahmad-hamwi:lazy-pagination-compose", version.ref = "lazy-pagination-compose" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinxSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
